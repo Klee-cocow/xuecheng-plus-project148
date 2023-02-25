@@ -1,0 +1,10 @@
+# 应用名称
+spring:
+  application:
+  name: xuecheng-plus-content-service
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://172.24.159.112:3307/xc148_content?characterEncoding=utf-8&serverTimezone=UTC
+
+
