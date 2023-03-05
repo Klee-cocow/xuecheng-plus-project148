@@ -199,11 +199,11 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
 
           //查询营销信息
           CourseMarket courseMarket = new CourseMarket();
-          BeanUtils.copyProperties(courseMarket,dto);
+          BeanUtils.copyProperties(dto,courseMarket);
 
 
           String charge = courseMarket.getCharge();
-          if(charge.equals("201001")){
+          if(!charge.equals("201001")){
                if(dto.getPrice() == null || dto.getPrice() == 0) throw new XueChengException("收费课程没有输入价格");
           }
 

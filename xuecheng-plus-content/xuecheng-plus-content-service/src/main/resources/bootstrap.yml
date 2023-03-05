@@ -1,0 +1,35 @@
+# 应用名称
+spring:
+  application:
+    name: content-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        namespace: dev318
+        group: xuecheng-plus-project
+      config:
+        namespace: dev318
+        group: xuecheng-plus-project
+        file-extension: yaml
+        refresh-enabled: true
+        shared-configs:
+          - data-id: logging-${spring.profiles.active}.yaml
+            group: xuecheng-plus-common
+            refresh: true
+
+  #  datasource:
+  #    username: root
+  #    password: 123456
+  #    url: jdbc:mysql://172.31.99.154:3307/xc148_content?characterEncoding=utf-8&serverTimezone=UTC
+  #    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  #profiles 默认位 dev
+  profiles:
+    active: dev
+
+# 日志配置路径
+#logging:
+#  config: classpath:log4j2-dev.xml
+
+

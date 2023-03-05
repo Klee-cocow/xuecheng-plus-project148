@@ -41,7 +41,7 @@ public class TeachplanServiceImpl implements TeachplanService {
 
           if(id == null ){
                teachplan = new Teachplan();
-               BeanUtils.copyProperties(teachplan,dto);
+               BeanUtils.copyProperties(dto,teachplan);
 
                //找到同级课程计划的数量
                int count = getTeachplanCount(dto.getCourseId(), dto.getParentid());

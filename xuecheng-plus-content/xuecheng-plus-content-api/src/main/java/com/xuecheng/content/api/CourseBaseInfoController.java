@@ -60,7 +60,7 @@ public class CourseBaseInfoController {
     @PutMapping("/course")
     public CourseBaseInfoDto modifyCourseBase(@RequestBody @Validated UpdateCourseDto updateCourseDto) {
 
-        Long companyId = 12341255L;
+        Long companyId = 1232141425L;
         return courseBaseInfoService.updateCourseBase(companyId,updateCourseDto);
     }
 

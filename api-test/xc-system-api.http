@@ -1,0 +1,4 @@
+GET {{gateway-host}}/system//dictionary/all
+Accept: application/json
+
+###

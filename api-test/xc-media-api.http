@@ -1,0 +1,11 @@
+POST {{media-host}}/media/upload/coursefile
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="filedata"; filename="bear.mp4"
+Content-Type: application/octet-stream
+
+< O:/project/bear.mp4
+--WebAppBoundary--
+
+###

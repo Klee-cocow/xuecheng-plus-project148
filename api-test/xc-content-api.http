@@ -1,6 +1,6 @@
 
 ### 课程查询接口
-POST {{content-host}}/content/course/list?pageNo=1&pageSize=2
+POST {{gateway-host}}/content/course/list?pageNo=1&pageSize=2
 Content-Type: application/json
 
 {
@@ -11,7 +11,7 @@ Content-Type: application/json
 
 
 ### 课程分类 查询接口
-GET {{content-host}}/content/course-category/tree-nodes
+GET {{gateway-host}}/content/course-category/tree-nodes
 
 
 ### 新增课程接口
