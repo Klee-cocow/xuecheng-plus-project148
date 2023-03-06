@@ -18,6 +18,6 @@ import java.util.List;
  */
 public interface MediaProcessMapper extends BaseMapper<MediaProcess> {
 
-    @Select("SELECT * FROM media_process t where t.id % #{shardTotal} = #{shardIndex} LIMIT #{count}}")
+    @Select("SELECT * FROM media_process t where t.id % #{shardTotal} = #{shardIndex} LIMIT #{count}")
     List<MediaProcess> selecListByShardIndex(@Param("shardTotal") int shardTotal,@Param("shardIndex") int shardIndex,@Param("count") int count);
 }

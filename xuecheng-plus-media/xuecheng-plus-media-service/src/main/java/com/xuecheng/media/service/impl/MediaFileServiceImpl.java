@@ -163,7 +163,7 @@ public class MediaFileServiceImpl implements MediaFileService {
     }
 
     //将文件上传到分布式文件系统
-    private void addMediaFilesToMinIO(String filePath, String bucket, String objectName) {
+    public void addMediaFilesToMinIO(String filePath, String bucket, String objectName) {
 
         try {
             UploadObjectArgs uploadObjectArgs = UploadObjectArgs.builder()

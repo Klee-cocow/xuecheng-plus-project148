@@ -1,8 +1,10 @@
 package com.xuecheng.media.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.xuecheng.media.mapper.MediaFilesMapper;
 import com.xuecheng.media.mapper.MediaProcessHistoryMapper;
 import com.xuecheng.media.mapper.MediaProcessMapper;
+import com.xuecheng.media.model.po.MediaFiles;
 import com.xuecheng.media.model.po.MediaProcess;
 import com.xuecheng.media.model.po.MediaProcessHistory;
 import com.xuecheng.media.service.MediaFileProcessService;
@@ -31,8 +33,11 @@ public class MediaFileProcessServiceImpl implements MediaFileProcessService {
     @Resource
     private MediaProcessHistoryMapper mediaProcessHistoryMapper;
 
+    @Resource
+    private MediaFilesMapper mediaFilesMapper;
+
     /**
-     * @description 添加待处理任务
+     * @description 查找待处理任务
      * @param shardTotal  处理器数量
      * @param shardIndex 处理器编号
      * @param count
@@ -79,10 +84,16 @@ public class MediaFileProcessServiceImpl implements MediaFileProcessService {
             return;
         }
         if(status.equals("2")){
+            //更新待处理表
             mediaProcess.setStatus("2");
             mediaProcess.setUrl(url);
             mediaProcess.setFinishDate(LocalDateTime.now());
             mediaProcessMapper.updateById(mediaProcess);
+
+            //更新文件表中的url字段
+            MediaFiles mediaFiles = mediaFilesMapper.selectById(fileId);
+            mediaFiles.setUrl(url);
+            mediaFilesMapper.updateById(mediaFiles);
         }
         //如果处理成功将待处理表记录删除
         MediaProcessHistory mediaProcessHistory = new MediaProcessHistory();

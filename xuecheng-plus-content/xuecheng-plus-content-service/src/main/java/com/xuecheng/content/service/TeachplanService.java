@@ -1,7 +1,10 @@
 package com.xuecheng.content.service;
 
+import com.pbteach.pbmain.api.content.model.vo.BindTeachplanMediaVO;
+import com.xuecheng.model.dto.BindTeachplanMediaDto;
 import com.xuecheng.model.dto.SaveTeachplanDto;
 import com.xuecheng.model.dto.TeachplanDto;
+import com.xuecheng.model.po.TeachplanMedia;
 
 import java.util.List;
 
@@ -23,6 +26,8 @@ public interface TeachplanService {
     List<TeachplanDto> findTeachplayTree(long courseId);
 
     void saveTeachplan(SaveTeachplanDto dto);
+
+    TeachplanMedia associationMedia(BindTeachplanMediaDto bindTeachPlanMediaDto);
 
 
 }
