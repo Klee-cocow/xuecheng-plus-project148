@@ -94,16 +94,19 @@ public class MediaFileServiceImpl implements MediaFileService {
     public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, byte[] bytes, String folder, String objectName) {
 
         String bucket_files;
-        if (uploadFileParamsDto.getFileType().equals("001001")) {
-            //是图片
-            bucket_files = bucket_image;
-        } else {
-            bucket_files = bucket_video;
+        //默认视频文件
+        bucket_files = bucket_video;
 
+        if (uploadFileParamsDto.getFileType().equals("001001")) {
+            //不是视频文件，更改存储bucket路径
+            bucket_files = bucket_image;
         }
+
+
 
         //得到文件的md5值
         String fileMd5 = DigestUtils.md5Hex(bytes);
+
 
         if (StringUtils.isEmpty(folder)) {
             //自动生成目录的路径 按年月日生成，
@@ -116,10 +119,9 @@ public class MediaFileServiceImpl implements MediaFileService {
 
         if (StringUtils.isEmpty(objectName)) {
             //如果objectName为空，使用文件的md5值为objectName
-            objectName = fileMd5 + filename.substring(filename.lastIndexOf("."));
+            objectName = folder + fileMd5 + filename.substring(filename.lastIndexOf("."));
         }
 
-        objectName = folder + objectName;
 
         try {
             addMediaFilesToMinIO(bytes, bucket_files, objectName);

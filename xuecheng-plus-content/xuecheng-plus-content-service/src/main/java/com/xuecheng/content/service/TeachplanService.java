@@ -23,7 +23,7 @@ public interface TeachplanService {
      * @author 咏鹅
      * @date 2023/2/26 21:42
     */
-    List<TeachplanDto> findTeachplayTree(long courseId);
+    List<TeachplanDto> findTeachplanTree(long courseId);
 
     void saveTeachplan(SaveTeachplanDto dto);
 

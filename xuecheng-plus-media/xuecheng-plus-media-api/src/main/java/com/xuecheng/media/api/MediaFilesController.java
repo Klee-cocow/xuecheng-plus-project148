@@ -44,7 +44,8 @@ public class MediaFilesController {
 
     }
 
-    @PostMapping(value = "/upload/coursefile", consumes = {MediaType.MULTIPART_FORM_DATA_VALUE})
+    @ApiOperation("上传图片")
+    @RequestMapping(value = "/upload/coursefile", consumes = {MediaType.MULTIPART_FORM_DATA_VALUE})
     public UploadFileResultDto upload(@RequestPart("filedata") MultipartFile filedata,
                                       @RequestParam(value = "folder",required=false) String folder,
                                       @RequestParam(value= "objectName",required=false) String objectName) {
@@ -54,13 +55,11 @@ public class MediaFilesController {
         String contentType = filedata.getContentType();
         uploadFileParamsDto.setContentType(contentType);
         uploadFileParamsDto.setFileSize(filedata.getSize());//文件大小
-        if (contentType.indexOf("image") >= 0) {
-            //是个图片
-
-            uploadFileParamsDto.setFileType("001001");
-        } else {
-
+        if (contentType.indexOf("video") >= 0) {
+            //是个视频
             uploadFileParamsDto.setFileType("001003");
+        } else {
+            uploadFileParamsDto.setFileType("001001");
         }
         uploadFileParamsDto.setFilename(filedata.getOriginalFilename());//文件名称
         UploadFileResultDto uploadFileResultDto = null;
