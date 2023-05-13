@@ -1,0 +1,412 @@
+2023-02-28 15:06:59,671 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-02-28 15:06:59,671 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-02-28 15:07:03,537 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-28 15:07:03,537 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-02-28 15:07:03,550 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-28 15:07:03,550 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-02-28 15:07:03,758 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 117ms. Found 0 Redis repository interfaces.
+2023-02-28 15:07:03,758 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 117ms. Found 0 Redis repository interfaces.
+2023-02-28 15:07:04,446 INFO [main][GenericScope.java:295] - BeanFactory id=337cd5db-b9b6-3f12-9fae-ed8945e6e37b
+2023-02-28 15:07:04,446 INFO [main][GenericScope.java:295] - BeanFactory id=337cd5db-b9b6-3f12-9fae-ed8945e6e37b
+2023-02-28 15:07:05,290 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63075 (http)
+2023-02-28 15:07:05,290 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63075 (http)
+2023-02-28 15:07:05,318 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63075"]
+2023-02-28 15:07:05,318 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63075"]
+2023-02-28 15:07:05,319 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-02-28 15:07:05,319 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-02-28 15:07:05,319 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-28 15:07:05,319 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-28 15:07:05,597 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-02-28 15:07:05,597 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-02-28 15:07:05,598 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 5822 ms
+2023-02-28 15:07:05,598 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 5822 ms
+2023-02-28 15:07:05,854 DEBUG [main][InternalLoggerFactory.java:45] - Using SLF4J as the default logging framework
+2023-02-28 15:07:05,854 DEBUG [main][InternalLoggerFactory.java:45] - Using SLF4J as the default logging framework
+2023-02-28 15:07:05,865 DEBUG [main][DefaultClientResources.java:108] - -Dio.netty.eventLoopThreads: 8
+2023-02-28 15:07:05,865 DEBUG [main][DefaultClientResources.java:108] - -Dio.netty.eventLoopThreads: 8
+2023-02-28 15:07:05,916 DEBUG [main][DefaultEventLoopGroupProvider.java:196] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-02-28 15:07:05,916 DEBUG [main][DefaultEventLoopGroupProvider.java:196] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-02-28 15:07:05,987 DEBUG [main][InternalThreadLocalMap.java:56] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-02-28 15:07:05,987 DEBUG [main][InternalThreadLocalMap.java:56] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-02-28 15:07:05,988 DEBUG [main][InternalThreadLocalMap.java:59] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-02-28 15:07:05,988 DEBUG [main][InternalThreadLocalMap.java:59] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-02-28 15:07:06,004 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-02-28 15:07:06,004 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-02-28 15:07:06,005 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-02-28 15:07:06,005 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-02-28 15:07:06,022 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@11392934
+2023-02-28 15:07:06,022 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@11392934
+2023-02-28 15:07:06,076 DEBUG [main][PlatformDependent.java:1036] - Platform: Windows
+2023-02-28 15:07:06,076 DEBUG [main][PlatformDependent.java:1036] - Platform: Windows
+2023-02-28 15:07:06,079 DEBUG [main][PlatformDependent0.java:417] - -Dio.netty.noUnsafe: false
+2023-02-28 15:07:06,079 DEBUG [main][PlatformDependent0.java:417] - -Dio.netty.noUnsafe: false
+2023-02-28 15:07:06,080 DEBUG [main][PlatformDependent0.java:897] - Java version: 8
+2023-02-28 15:07:06,080 DEBUG [main][PlatformDependent0.java:897] - Java version: 8
+2023-02-28 15:07:06,082 DEBUG [main][PlatformDependent0.java:130] - sun.misc.Unsafe.theUnsafe: available
+2023-02-28 15:07:06,082 DEBUG [main][PlatformDependent0.java:130] - sun.misc.Unsafe.theUnsafe: available
+2023-02-28 15:07:06,083 DEBUG [main][PlatformDependent0.java:154] - sun.misc.Unsafe.copyMemory: available
+2023-02-28 15:07:06,083 DEBUG [main][PlatformDependent0.java:154] - sun.misc.Unsafe.copyMemory: available
+2023-02-28 15:07:06,084 DEBUG [main][PlatformDependent0.java:192] - java.nio.Buffer.address: available
+2023-02-28 15:07:06,084 DEBUG [main][PlatformDependent0.java:192] - java.nio.Buffer.address: available
+2023-02-28 15:07:06,086 DEBUG [main][PlatformDependent0.java:257] - direct buffer constructor: available
+2023-02-28 15:07:06,086 DEBUG [main][PlatformDependent0.java:257] - direct buffer constructor: available
+2023-02-28 15:07:06,087 DEBUG [main][PlatformDependent0.java:331] - java.nio.Bits.unaligned: available, true
+2023-02-28 15:07:06,087 DEBUG [main][PlatformDependent0.java:331] - java.nio.Bits.unaligned: available, true
+2023-02-28 15:07:06,087 DEBUG [main][PlatformDependent0.java:396] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2023-02-28 15:07:06,087 DEBUG [main][PlatformDependent0.java:396] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2023-02-28 15:07:06,088 DEBUG [main][PlatformDependent0.java:403] - java.nio.DirectByteBuffer.<init>(long, int): available
+2023-02-28 15:07:06,088 DEBUG [main][PlatformDependent0.java:403] - java.nio.DirectByteBuffer.<init>(long, int): available
+2023-02-28 15:07:06,088 DEBUG [main][PlatformDependent.java:1079] - sun.misc.Unsafe: available
+2023-02-28 15:07:06,088 DEBUG [main][PlatformDependent.java:1079] - sun.misc.Unsafe: available
+2023-02-28 15:07:06,090 DEBUG [main][PlatformDependent.java:1200] - -Dio.netty.tmpdir: C:\Users\mrt\AppData\Local\Temp (java.io.tmpdir)
+2023-02-28 15:07:06,090 DEBUG [main][PlatformDependent.java:1200] - -Dio.netty.tmpdir: C:\Users\mrt\AppData\Local\Temp (java.io.tmpdir)
+2023-02-28 15:07:06,090 DEBUG [main][PlatformDependent.java:1279] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-02-28 15:07:06,090 DEBUG [main][PlatformDependent.java:1279] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-02-28 15:07:06,094 DEBUG [main][PlatformDependent.java:177] - -Dio.netty.maxDirectMemory: 7578058752 bytes
+2023-02-28 15:07:06,094 DEBUG [main][PlatformDependent.java:177] - -Dio.netty.maxDirectMemory: 7578058752 bytes
+2023-02-28 15:07:06,098 DEBUG [main][PlatformDependent.java:184] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-02-28 15:07:06,098 DEBUG [main][PlatformDependent.java:184] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-02-28 15:07:06,113 DEBUG [main][CleanerJava6.java:92] - java.nio.ByteBuffer.cleaner(): available
+2023-02-28 15:07:06,113 DEBUG [main][CleanerJava6.java:92] - java.nio.ByteBuffer.cleaner(): available
+2023-02-28 15:07:06,114 DEBUG [main][PlatformDependent.java:204] - -Dio.netty.noPreferDirect: false
+2023-02-28 15:07:06,114 DEBUG [main][PlatformDependent.java:204] - -Dio.netty.noPreferDirect: false
+2023-02-28 15:07:06,181 DEBUG [main][PlatformDependent.java:940] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-02-28 15:07:06,181 DEBUG [main][PlatformDependent.java:940] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-02-28 15:07:06,238 DEBUG [main][Loggers.java:249] - Using Slf4j logging framework
+2023-02-28 15:07:06,238 DEBUG [main][Loggers.java:249] - Using Slf4j logging framework
+2023-02-28 15:07:06,645 DEBUG [main][DefaultClientResources.java:204] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-02-28 15:07:06,645 DEBUG [main][DefaultClientResources.java:204] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-02-28 15:07:06,956 DEBUG [main][PooledByteBufAllocator.java:154] - -Dio.netty.allocator.numHeapArenas: 16
+2023-02-28 15:07:06,956 DEBUG [main][PooledByteBufAllocator.java:154] - -Dio.netty.allocator.numHeapArenas: 16
+2023-02-28 15:07:06,957 DEBUG [main][PooledByteBufAllocator.java:155] - -Dio.netty.allocator.numDirectArenas: 16
+2023-02-28 15:07:06,957 DEBUG [main][PooledByteBufAllocator.java:155] - -Dio.netty.allocator.numDirectArenas: 16
+2023-02-28 15:07:06,961 DEBUG [main][PooledByteBufAllocator.java:157] - -Dio.netty.allocator.pageSize: 8192
+2023-02-28 15:07:06,961 DEBUG [main][PooledByteBufAllocator.java:157] - -Dio.netty.allocator.pageSize: 8192
+2023-02-28 15:07:06,962 DEBUG [main][PooledByteBufAllocator.java:162] - -Dio.netty.allocator.maxOrder: 11
+2023-02-28 15:07:06,962 DEBUG [main][PooledByteBufAllocator.java:162] - -Dio.netty.allocator.maxOrder: 11
+2023-02-28 15:07:06,968 DEBUG [main][PooledByteBufAllocator.java:166] - -Dio.netty.allocator.chunkSize: 16777216
+2023-02-28 15:07:06,968 DEBUG [main][PooledByteBufAllocator.java:166] - -Dio.netty.allocator.chunkSize: 16777216
+2023-02-28 15:07:06,969 DEBUG [main][PooledByteBufAllocator.java:167] - -Dio.netty.allocator.smallCacheSize: 256
+2023-02-28 15:07:06,969 DEBUG [main][PooledByteBufAllocator.java:167] - -Dio.netty.allocator.smallCacheSize: 256
+2023-02-28 15:07:06,971 DEBUG [main][PooledByteBufAllocator.java:168] - -Dio.netty.allocator.normalCacheSize: 64
+2023-02-28 15:07:06,971 DEBUG [main][PooledByteBufAllocator.java:168] - -Dio.netty.allocator.normalCacheSize: 64
+2023-02-28 15:07:06,971 DEBUG [main][PooledByteBufAllocator.java:169] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-02-28 15:07:06,971 DEBUG [main][PooledByteBufAllocator.java:169] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-02-28 15:07:06,982 DEBUG [main][PooledByteBufAllocator.java:170] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-02-28 15:07:06,982 DEBUG [main][PooledByteBufAllocator.java:170] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-02-28 15:07:06,983 DEBUG [main][PooledByteBufAllocator.java:171] - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-02-28 15:07:06,983 DEBUG [main][PooledByteBufAllocator.java:171] - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-02-28 15:07:06,984 DEBUG [main][PooledByteBufAllocator.java:172] - -Dio.netty.allocator.useCacheForAllThreads: true
+2023-02-28 15:07:06,984 DEBUG [main][PooledByteBufAllocator.java:172] - -Dio.netty.allocator.useCacheForAllThreads: true
+2023-02-28 15:07:06,990 DEBUG [main][PooledByteBufAllocator.java:173] - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-02-28 15:07:06,990 DEBUG [main][PooledByteBufAllocator.java:173] - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-02-28 15:07:07,542 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-02-28 15:07:07,542 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-02-28 15:07:07,542 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-28 15:07:07,542 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-28 15:07:07,553 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-02-28 15:07:07,553 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-02-28 15:07:07,554 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-28 15:07:07,554 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-02-28 15:07:07,611 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-02-28 15:07:07,611 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-02-28 15:07:07,614 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-02-28 15:07:07,614 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-02-28 15:07:07,616 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-02-28 15:07:07,616 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-02-28 15:07:07,623 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-02-28 15:07:07,623 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-02-28 15:07:07,631 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-02-28 15:07:07,631 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-02-28 15:07:07,639 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-02-28 15:07:07,639 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-02-28 15:07:07,642 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-02-28 15:07:07,642 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-02-28 15:07:07,652 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-02-28 15:07:07,652 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-02-28 15:07:07,653 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-02-28 15:07:07,653 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-02-28 15:07:07,690 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-02-28 15:07:07,690 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-02-28 15:07:07,752 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-02-28 15:07:07,752 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-02-28 15:07:07,753 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-02-28 15:07:07,753 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-02-28 15:07:07,755 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-02-28 15:07:07,755 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-02-28 15:07:07,762 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-02-28 15:07:07,762 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-02-28 15:07:07,766 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-02-28 15:07:07,766 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-02-28 15:07:07,772 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-02-28 15:07:07,772 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-02-28 15:07:08,724 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-28 15:07:08,724 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-28 15:07:11,843 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-02-28 15:07:11,843 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-02-28 15:07:11,858 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-02-28 15:07:11,858 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-02-28 15:07:13,937 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-02-28 15:07:13,937 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-02-28 15:07:13,942 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-02-28 15:07:13,942 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-02-28 15:07:13,945 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-02-28 15:07:13,945 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-02-28 15:07:13,977 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-02-28 15:07:13,977 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-02-28 15:07:13,985 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-02-28 15:07:13,985 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-02-28 15:07:14,020 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-28 15:07:14,020 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-28 15:07:14,050 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-02-28 15:07:14,050 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-02-28 15:07:14,060 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=10.254.6.181&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=52150&clusters=DEFAULT, body: {}
+2023-02-28 15:07:14,060 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=10.254.6.181&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=52150&clusters=DEFAULT, body: {}
+2023-02-28 15:07:14,514 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63075"]
+2023-02-28 15:07:14,514 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63075"]
+2023-02-28 15:07:14,755 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63075 (http) with context path '/checkcode'
+2023-02-28 15:07:14,755 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63075 (http) with context path '/checkcode'
+2023-02-28 15:07:14,792 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-02-28 15:07:14,792 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-02-28 15:07:14,797 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev402 registering service xuecheng-plus-project@@checkcode with instance: Instance{instanceId='null', ip='192.168.101.1', port=63075, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-02-28 15:07:14,797 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev402 registering service xuecheng-plus-project@@checkcode with instance: Instance{instanceId='null', ip='192.168.101.1', port=63075, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-02-28 15:07:14,803 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/ns/instance?app=unknown&groupName=xuecheng-plus-project&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=dev402&port=63075&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.101.1&weight=1.0&ephemeral=true&serviceName=xuecheng-plus-project%40%40checkcode, body: {}
+2023-02-28 15:07:14,803 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/ns/instance?app=unknown&groupName=xuecheng-plus-project&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=dev402&port=63075&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.101.1&weight=1.0&ephemeral=true&serviceName=xuecheng-plus-project%40%40checkcode, body: {}
+2023-02-28 15:07:15,482 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=10.254.6.181&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=52150&clusters=DEFAULT, body: {}
+2023-02-28 15:07:15,482 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=10.254.6.181&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=52150&clusters=DEFAULT, body: {}
+2023-02-28 15:07:15,683 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project checkcode 192.168.101.1:63075 register finished
+2023-02-28 15:07:15,683 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project checkcode 192.168.101.1:63075 register finished
+2023-02-28 15:07:16,709 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"hosts\":[{\"ip\":\"192.168.101.1\",\"port\":63075,\"valid\":true,\"healthy\":true,\"marked\":false,\"instanceId\":\"192.168.101.1#63075#DEFAULT#xuecheng-plus-project@@checkcode\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"enabled\":true,\"weight\":1.0,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@checkcode\",\"ephemeral\":true}],\"dom\":\"xuecheng-plus-project@@checkcode\",\"name\":\"xuecheng-plus-project@@checkcode\",\"cacheMillis\":10000,\"lastRefTime\":1677568088290,\"checksum\":\"5b5629f91a30fadc5c27330a48661282\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"metadata\":{}}","lastRefTime":2689504568287} from /10.254.6.181
+2023-02-28 15:07:16,709 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"hosts\":[{\"ip\":\"192.168.101.1\",\"port\":63075,\"valid\":true,\"healthy\":true,\"marked\":false,\"instanceId\":\"192.168.101.1#63075#DEFAULT#xuecheng-plus-project@@checkcode\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"enabled\":true,\"weight\":1.0,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@checkcode\",\"ephemeral\":true}],\"dom\":\"xuecheng-plus-project@@checkcode\",\"name\":\"xuecheng-plus-project@@checkcode\",\"cacheMillis\":10000,\"lastRefTime\":1677568088290,\"checksum\":\"5b5629f91a30fadc5c27330a48661282\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"metadata\":{}}","lastRefTime":2689504568287} from /10.254.6.181
+2023-02-28 15:07:16,735 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@checkcode@@DEFAULT -> [{"instanceId":"192.168.101.1#63075#DEFAULT#xuecheng-plus-project@@checkcode","ip":"192.168.101.1","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-02-28 15:07:16,735 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@checkcode@@DEFAULT -> [{"instanceId":"192.168.101.1#63075#DEFAULT#xuecheng-plus-project@@checkcode","ip":"192.168.101.1","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-02-28 15:07:16,735 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@7c658965 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@73d983ea
+2023-02-28 15:07:16,735 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@7c658965 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@73d983ea
+2023-02-28 15:07:16,747 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@checkcode@@DEFAULT -> [{"instanceId":"192.168.101.1#63075#DEFAULT#xuecheng-plus-project@@checkcode","ip":"192.168.101.1","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-02-28 15:07:16,747 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@checkcode@@DEFAULT -> [{"instanceId":"192.168.101.1#63075#DEFAULT#xuecheng-plus-project@@checkcode","ip":"192.168.101.1","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-02-28 15:07:17,257 INFO [main][StartupInfoLogger.java:61] - Started CheckcodeApplication in 27.972 seconds (JVM running for 31.842)
+2023-02-28 15:07:17,257 INFO [main][StartupInfoLogger.java:61] - Started CheckcodeApplication in 27.972 seconds (JVM running for 31.842)
+2023-02-28 15:07:17,273 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev402] [subscribe] swagger-dev.yaml+xuecheng-plus-common+dev402
+2023-02-28 15:07:17,273 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev402] [subscribe] swagger-dev.yaml+xuecheng-plus-common+dev402
+2023-02-28 15:07:17,278 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-commonf6bbac657869a792cfd07d9f3e47723edev402, tenant=dev402}
+2023-02-28 15:07:17,278 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev402] [add-listener] ok, tenant=dev402, dataId=swagger-dev.yaml, group=xuecheng-plus-common, cnt=1
+2023-02-28 15:07:17,278 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev402] [add-listener] ok, tenant=dev402, dataId=swagger-dev.yaml, group=xuecheng-plus-common, cnt=1
+2023-02-28 15:07:17,280 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev402] [subscribe] checkcode-dev.yaml+xuecheng-plus-project+dev402
+2023-02-28 15:07:17,278 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-commonf6bbac657869a792cfd07d9f3e47723edev402, tenant=dev402}
+2023-02-28 15:07:17,281 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@1c8f5ba6]
+2023-02-28 15:07:17,280 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev402] [subscribe] checkcode-dev.yaml+xuecheng-plus-project+dev402
+2023-02-28 15:07:17,302 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev402] [add-listener] ok, tenant=dev402, dataId=checkcode-dev.yaml, group=xuecheng-plus-project, cnt=1
+2023-02-28 15:07:17,281 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@1c8f5ba6]
+2023-02-28 15:07:17,302 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev402] [add-listener] ok, tenant=dev402, dataId=checkcode-dev.yaml, group=xuecheng-plus-project, cnt=1
+2023-02-28 15:07:17,304 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev402] [subscribe] checkcode+xuecheng-plus-project+dev402
+2023-02-28 15:07:17,304 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev402] [subscribe] checkcode+xuecheng-plus-project+dev402
+2023-02-28 15:07:17,308 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev402] [add-listener] ok, tenant=dev402, dataId=checkcode, group=xuecheng-plus-project, cnt=1
+2023-02-28 15:07:17,308 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev402] [add-listener] ok, tenant=dev402, dataId=checkcode, group=xuecheng-plus-project, cnt=1
+2023-02-28 15:07:17,319 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev402] [subscribe] redis-dev.yaml+xuecheng-plus-common+dev402
+2023-02-28 15:07:17,319 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev402] [subscribe] redis-dev.yaml+xuecheng-plus-common+dev402
+2023-02-28 15:07:17,319 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev402] [add-listener] ok, tenant=dev402, dataId=redis-dev.yaml, group=xuecheng-plus-common, cnt=1
+2023-02-28 15:07:17,319 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev402] [add-listener] ok, tenant=dev402, dataId=redis-dev.yaml, group=xuecheng-plus-common, cnt=1
+2023-02-28 15:07:17,322 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-commonf6bbac657869a792cfd07d9f3e47723edev402checkcodexuecheng-plus-projectdev402redis-dev.yamlxuecheng-plus-common89111881c0af75e11232c2d2db336df8dev402checkcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edev402, tenant=dev402}
+2023-02-28 15:07:17,323 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@1c8f5ba6]
+2023-02-28 15:07:17,323 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev402] [subscribe] checkcode.yaml+xuecheng-plus-project+dev402
+2023-02-28 15:07:17,323 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev402] [add-listener] ok, tenant=dev402, dataId=checkcode.yaml, group=xuecheng-plus-project, cnt=1
+2023-02-28 15:07:17,322 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-commonf6bbac657869a792cfd07d9f3e47723edev402checkcodexuecheng-plus-projectdev402redis-dev.yamlxuecheng-plus-common89111881c0af75e11232c2d2db336df8dev402checkcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edev402, tenant=dev402}
+2023-02-28 15:07:17,323 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@1c8f5ba6]
+2023-02-28 15:07:17,323 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev402] [subscribe] checkcode.yaml+xuecheng-plus-project+dev402
+2023-02-28 15:07:17,323 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev402] [add-listener] ok, tenant=dev402, dataId=checkcode.yaml, group=xuecheng-plus-project, cnt=1
+2023-02-28 15:07:17,327 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev402] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev402
+2023-02-28 15:07:17,335 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-commonf6bbac657869a792cfd07d9f3e47723edev402checkcodexuecheng-plus-projectdev402redis-dev.yamlxuecheng-plus-common89111881c0af75e11232c2d2db336df8dev402checkcode.yamlxuecheng-plus-projectdev402logging-dev.yamlxuecheng-plus-common271ae59c8ee9326bbb49b77e81a87480dev402checkcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edev402, tenant=dev402}
+2023-02-28 15:07:17,327 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev402] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev402
+2023-02-28 15:07:17,335 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-commonf6bbac657869a792cfd07d9f3e47723edev402checkcodexuecheng-plus-projectdev402redis-dev.yamlxuecheng-plus-common89111881c0af75e11232c2d2db336df8dev402checkcode.yamlxuecheng-plus-projectdev402logging-dev.yamlxuecheng-plus-common271ae59c8ee9326bbb49b77e81a87480dev402checkcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edev402, tenant=dev402}
+2023-02-28 15:07:17,366 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@1c8f5ba6]
+2023-02-28 15:07:17,366 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@1c8f5ba6]
+2023-02-28 15:07:17,366 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev402] [add-listener] ok, tenant=dev402, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2023-02-28 15:07:17,375 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-commonf6bbac657869a792cfd07d9f3e47723edev402checkcodexuecheng-plus-projectdev402redis-dev.yamlxuecheng-plus-common89111881c0af75e11232c2d2db336df8dev402checkcode.yamlxuecheng-plus-projectdev402logging-dev.yamlxuecheng-plus-common271ae59c8ee9326bbb49b77e81a87480dev402checkcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edev402, tenant=dev402}
+2023-02-28 15:07:17,366 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev402] [add-listener] ok, tenant=dev402, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2023-02-28 15:07:17,375 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-commonf6bbac657869a792cfd07d9f3e47723edev402checkcodexuecheng-plus-projectdev402redis-dev.yamlxuecheng-plus-common89111881c0af75e11232c2d2db336df8dev402checkcode.yamlxuecheng-plus-projectdev402logging-dev.yamlxuecheng-plus-common271ae59c8ee9326bbb49b77e81a87480dev402checkcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edev402, tenant=dev402}
+2023-02-28 15:07:17,423 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@1c8f5ba6]
+2023-02-28 15:07:17,423 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@1c8f5ba6]
+2023-02-28 15:07:17,525 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=10.254.6.181&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=52150&clusters=DEFAULT, body: {}
+2023-02-28 15:07:17,525 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=10.254.6.181&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=52150&clusters=DEFAULT, body: {}
+2023-02-28 15:07:19,022 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-28 15:07:19,022 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-28 15:07:19,798 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev402 sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-02-28 15:07:19,798 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev402 sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-02-28 15:07:19,799 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev402&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {beat={"port":63075,"ip":"192.168.101.1","weight":1.0,"serviceName":"xuecheng-plus-project@@checkcode","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2023-02-28 15:07:19,799 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev402&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {beat={"port":63075,"ip":"192.168.101.1","weight":1.0,"serviceName":"xuecheng-plus-project@@checkcode","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2023-02-28 15:07:24,025 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-28 15:07:24,025 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-28 15:07:24,818 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev402 sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-02-28 15:07:24,818 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev402 sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-02-28 15:07:24,818 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev402&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-02-28 15:07:24,818 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev402&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-02-28 15:07:27,546 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=10.254.6.181&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=52150&clusters=DEFAULT, body: {}
+2023-02-28 15:07:27,546 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=10.254.6.181&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=52150&clusters=DEFAULT, body: {}
+2023-02-28 15:07:29,026 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-28 15:07:29,026 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-28 15:07:29,825 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev402 sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-02-28 15:07:29,825 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev402 sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-02-28 15:07:29,827 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev402&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-02-28 15:07:29,827 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev402&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-02-28 15:07:34,028 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-28 15:07:34,028 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-28 15:07:34,843 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev402 sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-02-28 15:07:34,843 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev402 sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-02-28 15:07:34,844 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev402&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-02-28 15:07:34,844 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev402&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-02-28 15:07:37,558 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=10.254.6.181&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=52150&clusters=DEFAULT, body: {}
+2023-02-28 15:07:37,558 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=10.254.6.181&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=52150&clusters=DEFAULT, body: {}
+2023-02-28 15:07:39,029 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-28 15:07:39,029 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-28 15:07:39,849 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev402 sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-02-28 15:07:39,849 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev402 sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-02-28 15:07:39,850 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev402&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-02-28 15:07:39,850 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev402&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-02-28 15:07:43,987 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-02-28 15:07:43,987 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-02-28 15:07:44,030 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-28 15:07:44,030 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-28 15:07:44,535 INFO [http-nio-63075-exec-2][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-28 15:07:44,535 INFO [http-nio-63075-exec-2][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-28 15:07:44,535 INFO [http-nio-63075-exec-2][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-02-28 15:07:44,535 INFO [http-nio-63075-exec-2][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-02-28 15:07:44,557 INFO [http-nio-63075-exec-2][FrameworkServlet.java:547] - Completed initialization in 22 ms
+2023-02-28 15:07:44,557 INFO [http-nio-63075-exec-2][FrameworkServlet.java:547] - Completed initialization in 22 ms
+2023-02-28 15:07:44,648 DEBUG [http-nio-63075-exec-2][AbstractCheckCodeService.java:40] - 生成验证码:UO0W
+2023-02-28 15:07:44,648 DEBUG [http-nio-63075-exec-2][AbstractCheckCodeService.java:40] - 生成验证码:UO0W
+2023-02-28 15:07:44,682 DEBUG [http-nio-63075-exec-2][RedisClient.java:263] - Trying to get a Redis connection for: RedisURI [host='192.168.101.65', port=6379]
+2023-02-28 15:07:44,682 DEBUG [http-nio-63075-exec-2][RedisClient.java:263] - Trying to get a Redis connection for: RedisURI [host='192.168.101.65', port=6379]
+2023-02-28 15:07:44,854 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev402 sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-02-28 15:07:44,854 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev402 sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-02-28 15:07:44,855 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev402&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-02-28 15:07:44,855 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev402&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-02-28 15:07:44,952 DEBUG [http-nio-63075-exec-2][EpollProvider.java:70] - Starting without optional epoll library
+2023-02-28 15:07:44,952 DEBUG [http-nio-63075-exec-2][EpollProvider.java:70] - Starting without optional epoll library
+2023-02-28 15:07:44,969 DEBUG [http-nio-63075-exec-2][KqueueProvider.java:72] - Starting without optional kqueue library
+2023-02-28 15:07:44,969 DEBUG [http-nio-63075-exec-2][KqueueProvider.java:72] - Starting without optional kqueue library
+2023-02-28 15:07:44,984 DEBUG [http-nio-63075-exec-2][DefaultEventLoopGroupProvider.java:85] - Allocating executor io.netty.channel.nio.NioEventLoopGroup
+2023-02-28 15:07:44,984 DEBUG [http-nio-63075-exec-2][DefaultEventLoopGroupProvider.java:85] - Allocating executor io.netty.channel.nio.NioEventLoopGroup
+2023-02-28 15:07:44,984 DEBUG [http-nio-63075-exec-2][DefaultEventLoopGroupProvider.java:196] - Creating executor io.netty.channel.nio.NioEventLoopGroup
+2023-02-28 15:07:44,984 DEBUG [http-nio-63075-exec-2][DefaultEventLoopGroupProvider.java:196] - Creating executor io.netty.channel.nio.NioEventLoopGroup
+2023-02-28 15:07:44,987 DEBUG [http-nio-63075-exec-2][MultithreadEventLoopGroup.java:44] - -Dio.netty.eventLoopThreads: 16
+2023-02-28 15:07:44,987 DEBUG [http-nio-63075-exec-2][MultithreadEventLoopGroup.java:44] - -Dio.netty.eventLoopThreads: 16
+2023-02-28 15:07:45,006 DEBUG [http-nio-63075-exec-2][NioEventLoop.java:106] - -Dio.netty.noKeySetOptimization: false
+2023-02-28 15:07:45,006 DEBUG [http-nio-63075-exec-2][NioEventLoop.java:106] - -Dio.netty.noKeySetOptimization: false
+2023-02-28 15:07:45,007 DEBUG [http-nio-63075-exec-2][NioEventLoop.java:107] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-02-28 15:07:45,007 DEBUG [http-nio-63075-exec-2][NioEventLoop.java:107] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-02-28 15:07:45,023 DEBUG [http-nio-63075-exec-2][DefaultEventLoopGroupProvider.java:98] - Adding reference to io.netty.channel.nio.NioEventLoopGroup@3027df01, existing ref count 0
+2023-02-28 15:07:45,023 DEBUG [http-nio-63075-exec-2][DefaultEventLoopGroupProvider.java:98] - Adding reference to io.netty.channel.nio.NioEventLoopGroup@3027df01, existing ref count 0
+2023-02-28 15:07:45,112 DEBUG [http-nio-63075-exec-2][RedisClient.java:775] - Resolved SocketAddress 192.168.101.65:6379 using RedisURI [host='192.168.101.65', port=6379]
+2023-02-28 15:07:45,112 DEBUG [http-nio-63075-exec-2][RedisClient.java:775] - Resolved SocketAddress 192.168.101.65:6379 using RedisURI [host='192.168.101.65', port=6379]
+2023-02-28 15:07:45,120 DEBUG [http-nio-63075-exec-2][AbstractRedisClient.java:312] - Connecting to Redis at 192.168.101.65:6379
+2023-02-28 15:07:45,120 DEBUG [http-nio-63075-exec-2][AbstractRedisClient.java:312] - Connecting to Redis at 192.168.101.65:6379
+2023-02-28 15:07:45,146 DEBUG [http-nio-63075-exec-2][DefaultChannelId.java:79] - -Dio.netty.processId: 26360 (auto-detected)
+2023-02-28 15:07:45,146 DEBUG [http-nio-63075-exec-2][DefaultChannelId.java:79] - -Dio.netty.processId: 26360 (auto-detected)
+2023-02-28 15:07:45,150 DEBUG [http-nio-63075-exec-2][NetUtil.java:135] - -Djava.net.preferIPv4Stack: false
+2023-02-28 15:07:45,150 DEBUG [http-nio-63075-exec-2][NetUtil.java:135] - -Djava.net.preferIPv4Stack: false
+2023-02-28 15:07:45,151 DEBUG [http-nio-63075-exec-2][NetUtil.java:136] - -Djava.net.preferIPv6Addresses: false
+2023-02-28 15:07:45,151 DEBUG [http-nio-63075-exec-2][NetUtil.java:136] - -Djava.net.preferIPv6Addresses: false
+2023-02-28 15:07:46,079 DEBUG [http-nio-63075-exec-2][NetUtilInitializations.java:129] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-02-28 15:07:46,079 DEBUG [http-nio-63075-exec-2][NetUtilInitializations.java:129] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-02-28 15:07:46,081 DEBUG [http-nio-63075-exec-2][NetUtil.java:187] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-02-28 15:07:46,081 DEBUG [http-nio-63075-exec-2][NetUtil.java:187] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-02-28 15:07:46,956 DEBUG [http-nio-63075-exec-2][DefaultChannelId.java:101] - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+2023-02-28 15:07:46,956 DEBUG [http-nio-63075-exec-2][DefaultChannelId.java:101] - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+2023-02-28 15:07:47,000 DEBUG [http-nio-63075-exec-2][ByteBufUtil.java:87] - -Dio.netty.allocator.type: pooled
+2023-02-28 15:07:47,000 DEBUG [http-nio-63075-exec-2][ByteBufUtil.java:87] - -Dio.netty.allocator.type: pooled
+2023-02-28 15:07:47,001 DEBUG [http-nio-63075-exec-2][ByteBufUtil.java:96] - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-02-28 15:07:47,001 DEBUG [http-nio-63075-exec-2][ByteBufUtil.java:96] - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-02-28 15:07:47,002 DEBUG [http-nio-63075-exec-2][ByteBufUtil.java:99] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-02-28 15:07:47,002 DEBUG [http-nio-63075-exec-2][ByteBufUtil.java:99] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-02-28 15:07:47,046 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:102] - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-02-28 15:07:47,046 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:102] - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-02-28 15:07:47,047 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:103] - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2023-02-28 15:07:47,047 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:103] - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2023-02-28 15:07:47,047 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:104] - -Dio.netty.recycler.linkCapacity: 16
+2023-02-28 15:07:47,047 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:104] - -Dio.netty.recycler.linkCapacity: 16
+2023-02-28 15:07:47,047 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:105] - -Dio.netty.recycler.ratio: 8
+2023-02-28 15:07:47,047 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:105] - -Dio.netty.recycler.ratio: 8
+2023-02-28 15:07:47,048 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:106] - -Dio.netty.recycler.delayedQueue.ratio: 8
+2023-02-28 15:07:47,048 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:106] - -Dio.netty.recycler.delayedQueue.ratio: 8
+2023-02-28 15:07:47,063 DEBUG [lettuce-nioEventLoop-4-1][AbstractByteBuf.java:63] - -Dio.netty.buffer.checkAccessible: true
+2023-02-28 15:07:47,063 DEBUG [lettuce-nioEventLoop-4-1][AbstractByteBuf.java:63] - -Dio.netty.buffer.checkAccessible: true
+2023-02-28 15:07:47,064 DEBUG [lettuce-nioEventLoop-4-1][AbstractByteBuf.java:64] - -Dio.netty.buffer.checkBounds: true
+2023-02-28 15:07:47,064 DEBUG [lettuce-nioEventLoop-4-1][AbstractByteBuf.java:64] - -Dio.netty.buffer.checkBounds: true
+2023-02-28 15:07:47,064 DEBUG [lettuce-nioEventLoop-4-1][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@73bfb850
+2023-02-28 15:07:47,064 DEBUG [lettuce-nioEventLoop-4-1][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@73bfb850
+2023-02-28 15:07:47,083 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-commonf6bbac657869a792cfd07d9f3e47723edev402checkcodexuecheng-plus-projectdev402redis-dev.yamlxuecheng-plus-common89111881c0af75e11232c2d2db336df8dev402checkcode.yamlxuecheng-plus-projectdev402logging-dev.yamlxuecheng-plus-common271ae59c8ee9326bbb49b77e81a87480dev402checkcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edev402, tenant=dev402}
+2023-02-28 15:07:47,083 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-commonf6bbac657869a792cfd07d9f3e47723edev402checkcodexuecheng-plus-projectdev402redis-dev.yamlxuecheng-plus-common89111881c0af75e11232c2d2db336df8dev402checkcode.yamlxuecheng-plus-projectdev402logging-dev.yamlxuecheng-plus-common271ae59c8ee9326bbb49b77e81a87480dev402checkcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edev402, tenant=dev402}
+2023-02-28 15:07:47,083 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@1c8f5ba6]
+2023-02-28 15:07:47,083 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev402][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@1c8f5ba6]
+2023-02-28 15:07:47,093 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:181] - [channel=0x7f699cc3, [id: 0x84b3f991] (inactive), chid=0x1] channelRegistered()
+2023-02-28 15:07:47,093 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:181] - [channel=0x7f699cc3, [id: 0x84b3f991] (inactive), chid=0x1] channelRegistered()
+2023-02-28 15:07:47,116 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:294] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, chid=0x1] channelActive()
+2023-02-28 15:07:47,116 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:294] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, chid=0x1] channelActive()
+2023-02-28 15:07:47,117 DEBUG [lettuce-nioEventLoop-4-1][DefaultEndpoint.java:421] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, epid=0x1] activateEndpointAndExecuteBufferedCommands 0 command(s) buffered
+2023-02-28 15:07:47,117 DEBUG [lettuce-nioEventLoop-4-1][DefaultEndpoint.java:421] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, epid=0x1] activateEndpointAndExecuteBufferedCommands 0 command(s) buffered
+2023-02-28 15:07:47,118 DEBUG [lettuce-nioEventLoop-4-1][DefaultEndpoint.java:426] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, epid=0x1] activating endpoint
+2023-02-28 15:07:47,118 DEBUG [lettuce-nioEventLoop-4-1][DefaultEndpoint.java:426] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, epid=0x1] activating endpoint
+2023-02-28 15:07:47,118 DEBUG [lettuce-nioEventLoop-4-1][DefaultEndpoint.java:508] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, epid=0x1] flushCommands()
+2023-02-28 15:07:47,118 DEBUG [lettuce-nioEventLoop-4-1][DefaultEndpoint.java:508] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, epid=0x1] flushCommands()
+2023-02-28 15:07:47,119 DEBUG [lettuce-nioEventLoop-4-1][DefaultEndpoint.java:523] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, epid=0x1] flushCommands() Flushing 0 commands
+2023-02-28 15:07:47,119 DEBUG [lettuce-nioEventLoop-4-1][DefaultEndpoint.java:523] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, epid=0x1] flushCommands() Flushing 0 commands
+2023-02-28 15:07:47,119 DEBUG [lettuce-nioEventLoop-4-1][ConnectionWatchdog.java:180] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, last known addr=/192.168.101.65:6379] channelActive()
+2023-02-28 15:07:47,119 DEBUG [lettuce-nioEventLoop-4-1][ConnectionWatchdog.java:180] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, last known addr=/192.168.101.65:6379] channelActive()
+2023-02-28 15:07:47,120 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:308] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, chid=0x1] channelActive() done
+2023-02-28 15:07:47,120 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:308] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, chid=0x1] channelActive() done
+2023-02-28 15:07:47,122 DEBUG [lettuce-nioEventLoop-4-1][AbstractRedisClient.java:359] - Connecting to Redis at 192.168.101.65:6379: Success
+2023-02-28 15:07:47,122 DEBUG [lettuce-nioEventLoop-4-1][AbstractRedisClient.java:359] - Connecting to Redis at 192.168.101.65:6379: Success
+2023-02-28 15:07:47,131 DEBUG [lettuce-nioEventLoop-4-1][RedisChannelHandler.java:179] - dispatching command AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand]
+2023-02-28 15:07:47,131 DEBUG [lettuce-nioEventLoop-4-1][RedisChannelHandler.java:179] - dispatching command AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand]
+2023-02-28 15:07:47,133 DEBUG [lettuce-nioEventLoop-4-1][DefaultEndpoint.java:389] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand]
+2023-02-28 15:07:47,133 DEBUG [lettuce-nioEventLoop-4-1][DefaultEndpoint.java:389] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand]
+2023-02-28 15:07:47,135 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:374] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, chid=0x1] write(ctx, AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand], promise)
+2023-02-28 15:07:47,135 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:374] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, chid=0x1] write(ctx, AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand], promise)
+2023-02-28 15:07:47,140 DEBUG [lettuce-nioEventLoop-4-1][CommandEncoder.java:101] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379] writing command AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand]
+2023-02-28 15:07:47,140 DEBUG [lettuce-nioEventLoop-4-1][CommandEncoder.java:101] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379] writing command AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand]
+2023-02-28 15:07:47,145 DEBUG [lettuce-nioEventLoop-4-1][DefaultEndpoint.java:173] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, epid=0x1] write() done
+2023-02-28 15:07:47,145 DEBUG [lettuce-nioEventLoop-4-1][DefaultEndpoint.java:173] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, epid=0x1] write() done
+2023-02-28 15:07:47,147 DEBUG [lettuce-nioEventLoop-4-1][ConnectionWatchdog.java:148] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, last known addr=/192.168.101.65:6379] userEventTriggered(ctx, io.lettuce.core.ConnectionEvents$Activated@1d9633d3)
+2023-02-28 15:07:47,147 DEBUG [lettuce-nioEventLoop-4-1][ConnectionWatchdog.java:148] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, last known addr=/192.168.101.65:6379] userEventTriggered(ctx, io.lettuce.core.ConnectionEvents$Activated@1d9633d3)
+2023-02-28 15:07:47,152 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:570] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, chid=0x1] Received: 5 bytes, 1 commands in the stack
+2023-02-28 15:07:47,152 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:570] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, chid=0x1] Received: 5 bytes, 1 commands in the stack
+2023-02-28 15:07:47,152 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:616] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, chid=0x1] Stack contains: 1 commands
+2023-02-28 15:07:47,152 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:616] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, chid=0x1] Stack contains: 1 commands
+2023-02-28 15:07:47,152 DEBUG [lettuce-nioEventLoop-4-1][RedisStateMachine.java:131] - Decode AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand]
+2023-02-28 15:07:47,152 DEBUG [lettuce-nioEventLoop-4-1][RedisStateMachine.java:131] - Decode AsyncCommand [type=AUTH, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand]
+2023-02-28 15:07:47,160 DEBUG [lettuce-nioEventLoop-4-1][RedisStateMachine.java:145] - Decoded AsyncCommand [type=AUTH, output=StatusOutput [output=OK, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand], empty stack: true
+2023-02-28 15:07:47,160 DEBUG [lettuce-nioEventLoop-4-1][RedisStateMachine.java:145] - Decoded AsyncCommand [type=AUTH, output=StatusOutput [output=OK, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand], empty stack: true
+2023-02-28 15:07:47,169 DEBUG [http-nio-63075-exec-2][RedisChannelHandler.java:179] - dispatching command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2023-02-28 15:07:47,169 DEBUG [http-nio-63075-exec-2][RedisChannelHandler.java:179] - dispatching command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2023-02-28 15:07:47,170 DEBUG [http-nio-63075-exec-2][DefaultEndpoint.java:389] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2023-02-28 15:07:47,170 DEBUG [http-nio-63075-exec-2][DefaultEndpoint.java:389] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, epid=0x1] write() writeAndFlush command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2023-02-28 15:07:47,172 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:374] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, chid=0x1] write(ctx, AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2023-02-28 15:07:47,172 DEBUG [http-nio-63075-exec-2][DefaultEndpoint.java:173] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, epid=0x1] write() done
+2023-02-28 15:07:47,172 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:374] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, chid=0x1] write(ctx, AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+2023-02-28 15:07:47,172 DEBUG [http-nio-63075-exec-2][DefaultEndpoint.java:173] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, epid=0x1] write() done
+2023-02-28 15:07:47,175 DEBUG [lettuce-nioEventLoop-4-1][CommandEncoder.java:101] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379] writing command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2023-02-28 15:07:47,175 DEBUG [lettuce-nioEventLoop-4-1][CommandEncoder.java:101] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379] writing command AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2023-02-28 15:07:47,178 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:570] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, chid=0x1] Received: 5 bytes, 1 commands in the stack
+2023-02-28 15:07:47,178 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:570] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, chid=0x1] Received: 5 bytes, 1 commands in the stack
+2023-02-28 15:07:47,178 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:616] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, chid=0x1] Stack contains: 1 commands
+2023-02-28 15:07:47,178 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:616] - [channel=0x7f699cc3, /192.168.101.1:63974 -> /192.168.101.65:6379, chid=0x1] Stack contains: 1 commands
+2023-02-28 15:07:47,178 DEBUG [lettuce-nioEventLoop-4-1][RedisStateMachine.java:131] - Decode AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2023-02-28 15:07:47,178 DEBUG [lettuce-nioEventLoop-4-1][RedisStateMachine.java:131] - Decode AsyncCommand [type=SETEX, output=StatusOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+2023-02-28 15:07:47,178 DEBUG [lettuce-nioEventLoop-4-1][RedisStateMachine.java:145] - Decoded AsyncCommand [type=SETEX, output=StatusOutput [output=OK, error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true
+2023-02-28 15:07:47,178 DEBUG [lettuce-nioEventLoop-4-1][RedisStateMachine.java:145] - Decoded AsyncCommand [type=SETEX, output=StatusOutput [output=OK, error='null'], commandType=io.lettuce.core.protocol.Command], empty stack: true
+2023-02-28 15:07:47,568 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=10.254.6.181&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=52150&clusters=DEFAULT, body: {}
+2023-02-28 15:07:47,568 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=10.254.6.181&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=52150&clusters=DEFAULT, body: {}
+2023-02-28 15:07:49,032 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-28 15:07:49,032 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-28 15:07:49,865 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev402 sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-02-28 15:07:49,865 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev402 sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-02-28 15:07:49,866 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev402&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-02-28 15:07:49,866 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev402&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-02-28 15:07:54,033 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-28 15:07:54,033 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-02-28 15:07:54,873 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev402 sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-02-28 15:07:54,873 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev402 sending beat to server: BeatInfo{port=63075, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@checkcode', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-02-28 15:07:54,874 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev402&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-02-28 15:07:54,874 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40checkcode&namespaceId=dev402&port=63075&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-02-28 15:07:57,579 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=10.254.6.181&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=52150&clusters=DEFAULT, body: {}
+2023-02-28 15:07:57,579 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=10.254.6.181&serviceName=xuecheng-plus-project%40%40checkcode&udpPort=52150&clusters=DEFAULT, body: {}
