@@ -14,12 +14,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 
-/**
- * @author Mr.M
- * @version 1.0
+/***
  * @description 课程索引接口
- * @date 2022/9/24 22:31
- */
+ * @param null
+ * @return
+ * @author 咏鹅
+ * @date 2023/5/8 20:25
+*/
 @Api(value = "课程信息索引接口", tags = "课程信息索引接口")
 @RestController
 @RequestMapping("/index")

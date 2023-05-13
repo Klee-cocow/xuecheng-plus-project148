@@ -21,12 +21,13 @@ import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 
-/**
+/***
  * @description 课程索引管理接口实现
- * @author Mr.M
- * @date 2022/9/25 7:23
- * @version 1.0
- */
+ * @param null
+ * @return
+ * @author 咏鹅
+ * @date 2023/5/8 20:23
+*/
 @Slf4j
 @Service
 public class IndexServiceImpl implements IndexService {
@@ -47,9 +48,11 @@ public class IndexServiceImpl implements IndexService {
   try {
    indexResponse = client.index(indexRequest, RequestOptions.DEFAULT);
   } catch (IOException e) {
-   log.error("添加索引出错:{}",e.getMessage());
-   e.printStackTrace();
-   XueChengException.cast("添加索引出错");
+   if(!e.getMessage().contains("200 OK")){
+    log.error("添加索引出错:{}",e.getMessage());
+    e.printStackTrace();
+    XueChengException.cast("添加索引出错");
+   }
   }
   String name = indexResponse.getResult().name();
   System.out.println(name);

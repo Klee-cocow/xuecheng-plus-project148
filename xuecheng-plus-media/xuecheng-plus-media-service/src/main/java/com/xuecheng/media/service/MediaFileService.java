@@ -15,22 +15,24 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.List;
 
-/**
- * @author Mr.M
- * @version 1.0
- * @description 媒资文件管理业务类
- * @date 2022/9/10 8:55
- */
+/***
+ * @description TODO
+ * @param null 
+ * @return
+ * @author 咏鹅
+ * @date 2023/5/8 20:22
+*/
 public interface MediaFileService {
 
-    /**
-     * @param pageParams          分页参数
-     * @param queryMediaParamsDto 查询条件
-     * @return com.xuecheng.base.model.PageResult<com.xuecheng.media.model.po.MediaFiles>
+    /***
      * @description 媒资文件查询方法
-     * @author Mr.M
-     * @date 2022/9/10 8:57
-     */
+     * @param companyId
+     * @param pageParams
+     * @param queryMediaParamsDto
+     * @return com.xuecheng.base.model.PageResult<com.xuecheng.media.model.po.MediaFiles>
+     * @author 咏鹅
+     * @date 2023/5/8 20:23
+    */
     PageResult<MediaFiles> queryMediaFiels(Long companyId, PageParams pageParams, QueryMediaParamsDto queryMediaParamsDto);
 
 
@@ -42,8 +44,8 @@ public interface MediaFileService {
      * @param objectName          对象名称
      * @return com.xuecheng.media.model.dto.UploadFileResultDto
      * @description 上传文件的通用接口
-     * @author Mr.M
-     * @date 2022/10/13 15:51
+     * @author 咏鹅
+     * @date 2023/5/8 20:23
      */
     UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, byte[] bytes, String folder, String objectName);
 

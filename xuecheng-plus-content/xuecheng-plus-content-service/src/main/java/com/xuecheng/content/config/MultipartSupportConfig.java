@@ -22,12 +22,13 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.OutputStream;
 
-/**
- * @author Mr.M
- * @version 1.0
+/***
  * @description TODO
- * @date 2022/10/15 22:13
- */
+ * @param null 
+ * @return
+ * @author 咏鹅
+ * @date 2023/5/8 20:22
+*/
 @Configuration
 public class MultipartSupportConfig {
 

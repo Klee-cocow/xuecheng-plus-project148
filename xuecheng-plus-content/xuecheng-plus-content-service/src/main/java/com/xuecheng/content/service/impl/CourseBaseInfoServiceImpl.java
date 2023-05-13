@@ -1,7 +1,8 @@
 package com.xuecheng.content.service.impl;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.xuecheng.base.exception.XueChengException;
 import com.xuecheng.base.model.PageParams;
@@ -10,23 +11,23 @@ import com.xuecheng.content.mapper.CourseBaseMapper;
 import com.xuecheng.content.mapper.CourseCategoryMapper;
 import com.xuecheng.content.mapper.CourseMarketMapper;
 import com.xuecheng.content.service.CourseBaseInfoService;
-import com.xuecheng.content.service.CourseMarketService;
-import com.xuecheng.model.dto.AddCourseDto;
-import com.xuecheng.model.dto.CourseBaseInfoDto;
-import com.xuecheng.model.dto.QueryCourseParamsDto;
-import com.xuecheng.model.dto.UpdateCourseDto;
+import com.xuecheng.content.service.TeachplanService;
+import com.xuecheng.model.dto.*;
 import com.xuecheng.model.po.CourseBase;
 import com.xuecheng.model.po.CourseCategory;
 import com.xuecheng.model.po.CourseMarket;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author 咏鹅
@@ -46,10 +47,20 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
      private CourseMarketMapper courseMarketMapper;
 
      @Resource
+     private CourseBaseInfoService courseBaseInfoService;
+
+     @Resource
+     private TeachplanService teachplanService;
+
+
+     @Resource
      private CourseCategoryMapper courseCategoryMapper;
 
      @Resource
      private CourseMarketServiceImpl courseMarketService;
+
+     @Resource
+     private RedisTemplate redisTemplate;
 
 
      /**
@@ -79,6 +90,10 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
 
           return courseBasePageResult;
      }
+
+
+
+
 
      @Transactional
      @Override
@@ -141,37 +156,66 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
      }
 
 
+
      public CourseBaseInfoDto getCourseBaseInfo(Long courseId){
-          //基本信息
-          CourseBase courseBase = courseBaseMapper.selectById(courseId);
-          //营销信息
-          CourseMarket courseMarket = courseMarketMapper.selectById(courseId);
 
-          CourseBaseInfoDto courseBaseInfoDto = new CourseBaseInfoDto();
-          BeanUtils.copyProperties(courseBase,courseBaseInfoDto);
-          if(courseBase != null){
-               BeanUtils.copyProperties(courseMarket,courseBaseInfoDto);
+
+          Object jsonObj = redisTemplate.opsForValue().get("coursebase:" + courseId);
+
+          if(jsonObj !=null){
+               String result = jsonObj.toString();
+               CourseBaseInfoDto courseBaseInfoDto = JSON.parseObject(result, CourseBaseInfoDto.class);
+               return  courseBaseInfoDto;
+          }else {
+               synchronized (this){
+                    Object jsonObj1 = redisTemplate.opsForValue().get("coursebase:" + courseId);
+                    if(jsonObj1!=null){
+                         String result = jsonObj1.toString();
+                         if(result.equals("null")) return null;
+                         CourseBaseInfoDto courseBaseInfoDto = JSON.parseObject(result, CourseBaseInfoDto.class);
+                         return  courseBaseInfoDto;
+                    }
+
+                    //基本信息
+                    CourseBase courseBase = courseBaseMapper.selectById(courseId);
+                    //营销信息
+                    CourseMarket courseMarket = courseMarketMapper.selectById(courseId);
+
+                    CourseBaseInfoDto courseBaseInfoDto = new CourseBaseInfoDto();
+                    BeanUtils.copyProperties(courseBase,courseBaseInfoDto);
+                    if(courseBase != null){
+                         BeanUtils.copyProperties(courseMarket,courseBaseInfoDto);
+                    }
+
+
+                    //根据课程分类id查询分类名称
+                    String mt = courseBase.getMt();
+                    String st = courseBase.getSt();
+
+                    CourseCategory mtCategory = courseCategoryMapper.selectById(mt);
+                    CourseCategory stCategory = courseCategoryMapper.selectById(st);
+
+                    if(mtCategory != null){
+                         //分类名称
+                         String mtName = mtCategory.getName();
+                         courseBaseInfoDto.setMtName(mtName);
+                    }
+                    if(stCategory != null){
+                         //分类名称
+                         String stName = stCategory.getName();
+                         courseBaseInfoDto.setStName(stName);
+                    }
+
+                    int min = new Random().nextInt(20);
+                    if(courseBaseInfoDto != null){
+                         redisTemplate.opsForValue().set("coursebase:"+courseId,JSON.toJSONString(courseBaseInfoDto),min, TimeUnit.MINUTES);
+                    }else{
+                         redisTemplate.opsForValue().set("coursebase:"+courseId,null,min, TimeUnit.MINUTES);
+                         return null;
+                    }
+                    return courseBaseInfoDto;
+               }
           }
-
-
-          //根据课程分类id查询分类名称
-          String mt = courseBase.getMt();
-          String st = courseBase.getSt();
-
-          CourseCategory mtCategory = courseCategoryMapper.selectById(mt);
-          CourseCategory stCategory = courseCategoryMapper.selectById(st);
-
-          if(mtCategory != null){
-               //分类名称
-               String mtName = mtCategory.getName();
-               courseBaseInfoDto.setMtName(mtName);
-          }
-          if(stCategory != null){
-               //分类名称
-               String stName = stCategory.getName();
-               courseBaseInfoDto.setStName(stName);
-          }
-          return courseBaseInfoDto;
      }
 
      public CourseMarket getCourseMarketByCourseId(Long courseId){
@@ -189,7 +233,7 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
 
           if(courseBaseUpdate == null) XueChengException.cast("课程不存在");
 
-          if(!companyId.equals(courseBaseUpdate.getCompanyId())) XueChengException.cast("只允许修改本机构的课程");
+//          if(!companyId.equals(courseBaseUpdate.getCompanyId())) XueChengException.cast("只允许修改本机构的课程");
 
           BeanUtils.copyProperties(dto,courseBaseUpdate);
           courseBaseUpdate.setChangeDate(LocalDateTime.now());
@@ -204,7 +248,7 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
 
           String charge = courseMarket.getCharge();
           if(!charge.equals("201001")){
-               if(dto.getPrice() == null || dto.getPrice() == 0) throw new XueChengException("收费课程没有输入价格");
+//               if(dto.getPrice() == null || dto.getPrice() == 0) throw new XueChengException("收费课程没有输入价格");
           }
 
 
@@ -216,4 +260,21 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
           //返回课程信息
           return getCourseBaseInfo(courseId);
      }
+
+     @Override
+     public CoursePreviewDto getCoursePreviewInfo(Long courseId) {
+          //基本信息、营销信息
+          CourseBaseInfoDto courseBaseInfo = courseBaseInfoService.getCourseBaseInfo(courseId);
+
+          //教学计划
+          List<TeachplanDto> teachplayTree = teachplanService.findTeachplanTree(courseId);
+
+          CoursePreviewDto coursePreviewDto = new CoursePreviewDto();
+          coursePreviewDto.setCourseBase(courseBaseInfo);
+          coursePreviewDto.setTeachplans(teachplayTree);
+
+          return coursePreviewDto;
+     }
+
+
 }

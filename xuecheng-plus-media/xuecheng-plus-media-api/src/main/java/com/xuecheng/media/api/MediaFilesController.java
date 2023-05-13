@@ -21,12 +21,13 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.xml.ws.Response;
 
-/**
- * @author Mr.M
- * @version 1.0
+/***
  * @description 媒资文件管理接口
- * @date 2022/9/6 11:29
- */
+ * @param null
+ * @return
+ * @author 咏鹅
+ * @date 2023/5/8 20:25
+*/
 @Api(value = "媒资文件管理接口", tags = "媒资文件管理接口")
 @RestController
 public class MediaFilesController {

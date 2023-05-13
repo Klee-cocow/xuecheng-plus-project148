@@ -2,12 +2,13 @@
 package com.xuecheng.base.exception;
 
 
-/**
+/***
  * @description 通用错误信息
- * @author Mr.M
- * @date 2022/9/6 11:29
- * @version 1.0
- */
+ * @param null
+ * @return
+ * @author 咏鹅
+ * @date 2023/5/8 20:21
+*/
 public enum CommonError {
 
 	UNKOWN_ERROR("执行过程异常，请重试。"),

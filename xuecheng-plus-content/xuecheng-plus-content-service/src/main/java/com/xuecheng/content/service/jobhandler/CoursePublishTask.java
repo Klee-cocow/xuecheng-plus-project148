@@ -6,14 +6,10 @@ import com.xuecheng.content.service.CoursePublishService;
 import com.xuecheng.messagesdk.model.po.MqMessage;
 import com.xuecheng.messagesdk.service.MessageProcessAbstract;
 import com.xuecheng.messagesdk.service.MqMessageService;
-import com.xuecheng.model.po.CourseIndex;
-import com.xuecheng.model.po.CoursePublish;
 import com.xxl.job.core.context.XxlJobHelper;
 import com.xxl.job.core.handler.annotation.XxlJob;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.io.File;
@@ -60,7 +56,7 @@ public class CoursePublishTask extends MessageProcessAbstract {
         //向elasticsearch写索引数据
         saveCourseIndex(mqMessage,courseId);
 
-        //向redis 写入缓存
+
 
         //返回true表示任务完成
         return true;

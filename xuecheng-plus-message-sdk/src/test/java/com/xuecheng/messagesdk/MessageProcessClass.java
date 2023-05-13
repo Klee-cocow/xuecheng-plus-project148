@@ -8,12 +8,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
-/**
+/***
  * @description 消息处理测试类，继承MessageProcessAbstract
- * @author Mr.M
- * @date 2022/9/21 21:44
- * @version 1.0
- */
+ * @param null
+ * @return
+ * @author 咏鹅
+ * @date 2023/5/8 20:22
+*/
 @Slf4j
 @Component
 public class MessageProcessClass extends MessageProcessAbstract {

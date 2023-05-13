@@ -5,12 +5,13 @@ import lombok.Data;
 
 import java.math.BigDecimal;
 
-/**
- * @description 课程基本信息dto
- * @author Mr.M
- * @date 2022/9/7 17:44
- * @version 1.0
- */
+/***
+ * @description TODO
+ * @param null 
+ * @return
+ * @author 咏鹅
+ * @date 2023/5/8 20:22
+*/
 @Data
 public class CourseBaseInfoDto extends CourseBase {
 

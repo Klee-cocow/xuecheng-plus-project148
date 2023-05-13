@@ -3,12 +3,13 @@ package com.xuecheng.media.model.dto;
 import com.xuecheng.media.model.po.MediaFiles;
 import lombok.Data;
 
-/**
+/***
  * @description TODO
- * @author Mr.M
- * @date 2022/10/13 15:21
- * @version 1.0
- */
+ * @param null 
+ * @return
+ * @author 咏鹅
+ * @date 2023/5/8 20:24
+*/
 @Data
 public class UploadFileResultDto extends MediaFiles {
 }

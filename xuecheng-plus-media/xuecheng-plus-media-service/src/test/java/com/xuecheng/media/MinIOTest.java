@@ -8,12 +8,13 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FilterInputStream;
 
-/**
- * @author Mr.M
- * @version 1.0
- * @description 测试minio上传文件、删除文件、查询文件
- * @date 2022/10/13 14:42
- */
+/***
+ * @description TODO
+ * @param null 
+ * @return 测试minio上传文件、删除文件、查询文件
+ * @author 咏鹅
+ * @date 2023/5/8 20:25
+*/
 public class MinIOTest {
 
     static MinioClient minioClient =

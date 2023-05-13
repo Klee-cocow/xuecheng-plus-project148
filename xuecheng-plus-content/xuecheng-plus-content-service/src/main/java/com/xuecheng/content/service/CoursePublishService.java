@@ -1,6 +1,8 @@
 package com.xuecheng.content.service;
 
 import com.xuecheng.model.dto.CoursePreviewDto;
+import com.xuecheng.model.po.CoursePublish;
+import org.springframework.web.bind.annotation.PathVariable;
 
 import java.io.File;
 
@@ -10,20 +12,24 @@ import java.io.File;
 * @createDate 2023-03-09 00:05:31
 */
 public interface CoursePublishService{
-    /**
+
+
+    /***
      * @description 获取课程预览信息
-     * @param courseId 课程id
-     * @return com.xuecheng.content.model.dto.CoursePreviewDto
-     * @author Mr.M
-     * @date 2022/9/16 15:36
-     */
+     * @param courseId  课程id
+     * @return com.xuecheng.model.dto.CoursePreviewDto
+     * @author 咏鹅
+     * @date 2023/5/8 20:20
+    */
      CoursePreviewDto getCoursePreviewInfo(Long courseId);
+
+
     /**
      * @description 提交审核
      * @param courseId  课程id
      * @return void
-     * @author Mr.M
-     * @date 2022/9/18 10:31
+     * @author 咏鹅
+     * @date 2023/5/8 20:20
      */
      void commitAudit(Long companyId,Long courseId);
     /**
@@ -31,8 +37,8 @@ public interface CoursePublishService{
      * @param companyId 机构id
      * @param courseId 课程id
      * @return void
-     * @author Mr.M
-     * @date 2022/9/20 16:23
+     * @author 咏鹅
+     * @date 2023/5/8 20:20
      */
      void publish(Long companyId,Long courseId);
 
@@ -40,19 +46,28 @@ public interface CoursePublishService{
      * @description 课程静态化
      * @param courseId  课程id
      * @return File 静态化文件
-     * @author Mr.M
-     * @date 2022/9/23 16:59
+     * @author 咏鹅
+     * @date 2023/5/8 20:20
      */
      File generateCourseHtml(Long courseId);
     /**
      * @description 上传课程静态化页面
      * @param file  静态化文件
      * @return void
-     * @author Mr.M
-     * @date 2022/9/23 16:59
+     * @author 咏鹅
+     * @date 2023/5/8 20:20
      */
      void  uploadCourseHtml(Long courseId, File file);
 
     //创建索引
      Boolean saveCourseIndex(Long courseId) ;
+
+     /***
+      * @description 查询课程发布信息
+      * @param courseId
+      * @return com.xuecheng.model.po.CoursePublish
+      * @author 咏鹅
+      * @date 2023/5/8 11:00
+     */
+    CoursePublish getCoursePublish(Long courseId);
 }

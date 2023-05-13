@@ -5,12 +5,13 @@ import lombok.ToString;
 
 import java.util.List;
 
-/**
+/***
  * @description TODO
- * @author Mr.M
- * @date 2022/10/7 16:17
- * @version 1.0
- */
+ * @param null 
+ * @return
+ * @author 咏鹅
+ * @date 2023/5/8 20:23
+*/
  @Data
  @ToString
 public class PageResult<T> {

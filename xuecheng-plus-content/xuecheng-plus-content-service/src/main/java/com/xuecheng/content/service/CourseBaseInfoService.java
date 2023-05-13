@@ -3,10 +3,7 @@ package com.xuecheng.content.service;
 import com.xuecheng.base.model.PageParams;
 import com.xuecheng.base.model.PageResult;
 import com.xuecheng.content.mapper.CourseBaseMapper;
-import com.xuecheng.model.dto.AddCourseDto;
-import com.xuecheng.model.dto.CourseBaseInfoDto;
-import com.xuecheng.model.dto.QueryCourseParamsDto;
-import com.xuecheng.model.dto.UpdateCourseDto;
+import com.xuecheng.model.dto.*;
 import com.xuecheng.model.po.CourseBase;
 import com.xuecheng.model.po.CourseMarket;
 import org.springframework.stereotype.Service;
@@ -59,5 +56,7 @@ public interface CourseBaseInfoService {
    CourseMarket getCourseMarketByCourseId(Long courseId);
 
    CourseBaseInfoDto updateCourseBase(Long companyId,UpdateCourseDto dto);
+
+   CoursePreviewDto getCoursePreviewInfo(Long courseId);
 
 }

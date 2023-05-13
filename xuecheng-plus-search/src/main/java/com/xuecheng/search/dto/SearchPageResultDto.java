@@ -6,12 +6,13 @@ import lombok.ToString;
 
 import java.util.List;
 
-/**
- * @author Mr.M
- * @version 1.0
+/***
  * @description TODO
- * @date 2022/9/25 17:51
- */
+ * @param null 
+ * @return 
+ * @author 咏鹅
+ * @date 2023/5/8 20:26
+*/
 @Data
 @ToString
 public class SearchPageResultDto<T> extends PageResult {

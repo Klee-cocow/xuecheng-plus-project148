@@ -18,6 +18,7 @@ import com.xuecheng.model.dto.CourseBaseInfoDto;
 import com.xuecheng.model.dto.CoursePreviewDto;
 import com.xuecheng.model.dto.TeachplanDto;
 import com.xuecheng.model.po.*;
+import freemarker.cache.ClassTemplateLoader;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import lombok.extern.slf4j.Slf4j;
@@ -87,6 +88,7 @@ public class CoursePublishServiceImpl implements CoursePublishService {
         return coursePreviewDto;
     }
 
+
     @Override
     public void commitAudit(Long companyId, Long courseId) {
         //约束校验
@@ -99,7 +101,7 @@ public class CoursePublishServiceImpl implements CoursePublishService {
         }
         //本机构只允许提交本机构的课程
         if (!courseBase.getCompanyId().equals(companyId)) {
-            XueChengException.cast("不允许提交其它机构的课程。");
+//            XueChengException.cast("不允许提交其它机构的课程。");
         }
 
         //课程图片是否填写
@@ -153,7 +155,7 @@ public class CoursePublishServiceImpl implements CoursePublishService {
         }
         //本机构只允许提交本机构的课程
         if(!coursePublishPre.getCompanyId().equals(companyId)){
-            XueChengException.cast("不允许提交其他机构的课程");
+//            XueChengException.cast("不允许提交其他机构的课程");
         }
 
         //课程审核状态
@@ -182,11 +184,13 @@ public class CoursePublishServiceImpl implements CoursePublishService {
 
         try {
 
-            //拿到classpath 路径
-            String classpath = this.getClass().getResource("/").getPath();
+//            //拿到classpath 路径
+//            String classpath = this.getClass().getResource("/").getPath();
+//
+//            //指定模板的目录
+//            configuration.setDirectoryForTemplateLoading(new File(classpath+"/templates/"));
 
-            //指定模板的目录
-            configuration.setDirectoryForTemplateLoading(new File(classpath+"/templates/"));
+            configuration.setTemplateLoader(new ClassTemplateLoader(this.getClass().getClassLoader(),"/templates"));
 
             //指定编码
             configuration.setDefaultEncoding("utf-8");
@@ -253,6 +257,12 @@ public class CoursePublishServiceImpl implements CoursePublishService {
             XueChengException.cast("添加索引失败");
         }
         return add;
+    }
+
+    @Override
+    public CoursePublish getCoursePublish(Long courseId) {
+        CoursePublish coursePublish = coursePublishMapper.selectById(courseId);
+        return coursePublish;
     }
 
 

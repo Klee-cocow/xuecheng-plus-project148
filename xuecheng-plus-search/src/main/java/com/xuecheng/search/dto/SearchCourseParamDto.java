@@ -3,12 +3,13 @@ package com.xuecheng.search.dto;
 import lombok.Data;
 import lombok.ToString;
 
-/**
+/***
  * @description 搜索课程参数dtl
- * @author Mr.M
- * @date 2022/9/24 22:36
- * @version 1.0
- */
+ * @param null
+ * @return
+ * @author 咏鹅
+ * @date 2023/5/8 20:27
+*/
  @Data
  @ToString
 public class SearchCourseParamDto {

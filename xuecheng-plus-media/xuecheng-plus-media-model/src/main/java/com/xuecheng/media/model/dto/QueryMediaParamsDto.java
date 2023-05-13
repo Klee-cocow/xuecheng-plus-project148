@@ -4,12 +4,13 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.ToString;
 
-/**
- * @author Mr.M
- * @version 1.0
+/***
  * @description 媒资文件查询请求模型类
- * @date 2022/9/10 8:53
- */
+ * @param null
+ * @return
+ * @author 咏鹅
+ * @date 2023/5/8 20:26
+*/
 @Data
 @ToString
 public class QueryMediaParamsDto {

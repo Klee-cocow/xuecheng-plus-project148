@@ -5,12 +5,13 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * @author Mr.M
- * @version 1.0
+/***
  * @description TODO
- * @date 2022/10/13 15:17
- */
+ * @param null 
+ * @return
+ * @author 咏鹅
+ * @date 2023/5/8 20:25
+*/
 @Configuration
 public class MinioConfig {
 

@@ -12,12 +12,13 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 
-/**
+/***
  * @description 课程搜索接口
- * @author Mr.M
- * @date 2022/9/24 22:31
- * @version 1.0
- */
+ * @param null
+ * @return
+ * @author 咏鹅
+ * @date 2023/5/8 20:25
+*/
 @Api(value = "课程搜索接口",tags = "课程搜索接口")
  @RestController
  @RequestMapping("/course")

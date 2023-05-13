@@ -34,12 +34,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @author Mr.M
- * @version 1.0
+/***
  * @description 课程搜索service实现类
- * @date 2022/9/24 22:48
- */
+ * @param null
+ * @return
+ * @author 咏鹅
+ * @date 2023/5/8 10:41
+*/
 @Slf4j
 @Service
 public class CourseSearchServiceImpl implements CourseSearchService {

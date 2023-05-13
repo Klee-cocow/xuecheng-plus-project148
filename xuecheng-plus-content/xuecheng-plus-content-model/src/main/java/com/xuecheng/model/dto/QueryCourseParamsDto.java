@@ -2,12 +2,13 @@ package com.xuecheng.model.dto;
 
 import lombok.Data;
 
-/**
- * @author Mr.M
- * @version 1.0
+/***
  * @description TODO
- * @date 2022/10/7 16:08
- */
+ * @param null 
+ * @return 
+ * @author 咏鹅
+ * @date 2023/5/8 20:26
+*/
 @Data
 public class QueryCourseParamsDto {
 
